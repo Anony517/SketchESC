@@ -9,7 +9,7 @@ Overview of the proposed Structured Sketch Recognition network. The &#9312; indi
 ## Visualizations
 Visualization of semantic component features using t-SNE and some sketch samples.  The (a) shows the feature visualization of the 87 types of semantic components in SPG.  The (b) shows some sketch examples whose parts of semantic components are indistinguishable in the feature space, but our SSR network can do recognition and segmentation correctly.
 
-<img src="images/Figure2.png" width="600" />
+<img src="images/Figure2.png" width="800" />
  
 Examples of wrongly-recognized sketches in the SPG dataset. The numbers around the strokes are the groundtruth or predicted type indexes of semantic components.
 
@@ -17,15 +17,15 @@ Examples of wrongly-recognized sketches in the SPG dataset. The numbers around t
 
 More examples of wrongly-recognized sketches in the SPG dataset. The numbers around the strokes are the groundtruth or predicted type indexes of semantic components. The green, red, black fonts mean that the related semantic compo-nents are correctly-recognized, wrongly-recognized, not recognized, respectively.
 
-<img src="images/Figure4.png" width="600" />
+<img src="images/Figure4.png" width="800" />
 
 Examples of wrongly-recognized sketches in the SketchIME dataset. The numbers around the strokes are the ground-truth or predicted type indexes of semantic components. Different types of semantic components are also drawn with different colored lines. The “C**” under each sketch sample denotes the category label. The sketches in the SketchIME dataset are not familiar everyday objects, and their semantic components are abstract. Therefore, the far right column displays the examples of free-hand strokes of each semantic component.
 
-<img src="images/Figure5.png" width="600" />
+<img src="images/Figure5.png" width="800" />
 
 Examples of the recognition and derived semantic segmentation results in the SPG dataset when training only with the category labels and the prior knowledge about which types of semantic components constitute each sketch category (without the semantic component labels of strokes).  The numbers around the strokes are the groundtruth or predicted type indexes of semantic components. The green, red, black fonts mean that the related semantic components are cor-rectly-recognized, wrongly-recognized, not recognized, respectively.
 
-<img src="images/Figure6.png" width="600" />
+<img src="images/Figure6.png" width="800" />
 
 ## Instructions
 
